@@ -1,25 +1,25 @@
 
 let foodList = [
-    { name: "ข้าวผัด", type: "จานเดียว", price: 45, img: "img/rice.png" },
-    { name: "ผัดกะเพรา", type: "จานเดียว", price: 50, img: "img/kaponr.jpg" },
-    { name: "ต้มยำกุ้ง", type: "ของแกง", price: 120, img: "img/toyumgu.jpg" },
-    { name: "แกงเขียวหวาน", type: "ของแกง", price: 80, img: "img/green.jpg" },
-    { name: "ส้มตำ", type: "ยำ", price: 40, img: "img/tamtam.jpg" },
-    { name: "ลาบหมู", type: "ยำ", price: 60, img: "img/krua.jpg" },
-    { name: "ผัดไทย", type: "ก่วยเตี๋ยว", price: 50, img: "img/padthai.jpg" },
-    { name: "ก่วยเตี๋ยวเนื้อ", type: "ก่วยเตี๋ยว", price: 55, img: "img/noodle.jpg" },
-    { name: "ข้าวมันไก่", type: "จานเดียว", price: 50, img: "img/ricemann.jpg" },
-    { name: "ข้าวหมูกรอบ", type: "จานเดียว", price: 55, img: "img/mugrob.jpg" },
-    { name: "ผัดซีอิ๊ว", type: "จานเดียว", price: 45, img: "img/C.jpg" },
-    { name: "ข้าวต้มปลา", type: "จานเดียว", price: 60, img: "img/ricetum.jpg" },
-    { name: "แกงจืดเต้าหู้", type: "ของแกง", price: 40, img: "img/j.jpg" },
-    { name: "ผัดผักบุ้งไฟแดง", type: "ผัด", price: 40, img: "img/puk.jpg" },
-    { name: "ไก่ทอด", type: "ทอด", price: 70, img: "img/FriedChicken.jpg"},
-    { name: "ปลาทอด", type: "ทอด", price: 90, img: "img/friedfish.jpg" },
-    { name: "ยำวุ้นเส้น", type: "ยำ", price: 50, img: "img/Noodle spicy.jpg"},
-    { name: "ข้าวเปล่า", type: "ข้าว", price: 10, img: "img/r.jpg" },
-    { name: "น้ำเปล่า", type: "เครื่องดื่ม", price: 10, img: "img/warter.jpg" },
-    { name: "น้ำอัดลม", type: "เครื่องดื่ม", price: 20, img: "img/CocaCORA.jpg"  }
+    { name: "ข้าวผัด", type: "จานเดียว", price: 45, img: "rice.png" },
+    { name: "ผัดกะเพรา", type: "จานเดียว", price: 50, img: "kaponr.jpg" },
+    { name: "ต้มยำกุ้ง", type: "ของแกง", price: 120, img: "toyumgu.jpg" },
+    { name: "แกงเขียวหวาน", type: "ของแกง", price: 80, img: "green.jpg" },
+    { name: "ส้มตำ", type: "ยำ", price: 40, img: "tamtam.jpg" },
+    { name: "ลาบหมู", type: "ยำ", price: 60, img: "krua.jpg" },
+    { name: "ผัดไทย", type: "ก่วยเตี๋ยว", price: 50, img: "padthai.jpg" },
+    { name: "ก่วยเตี๋ยวเนื้อ", type: "ก่วยเตี๋ยว", price: 55, img: "noodle.jpg" },
+    { name: "ข้าวมันไก่", type: "จานเดียว", price: 50, img: "ricemann.jpg" },
+    { name: "ข้าวหมูกรอบ", type: "จานเดียว", price: 55, img: "mugrob.jpg" },
+    { name: "ผัดซีอิ๊ว", type: "จานเดียว", price: 45, img: "C.jpg" },
+    { name: "ข้าวต้มปลา", type: "จานเดียว", price: 60, img: "ricetum.jpg" },
+    { name: "แกงจืดเต้าหู้", type: "ของแกง", price: 40, img: "j.jpg" },
+    { name: "ผัดผักบุ้งไฟแดง", type: "ผัด", price: 40, img: "puk.jpg" },
+    { name: "ไก่ทอด", type: "ทอด", price: 70, img: "FriedChicken.jpg"},
+    { name: "ปลาทอด", type: "ทอด", price: 90, img: "friedfish.jpg" },
+    { name: "ยำวุ้นเส้น", type: "ยำ", price: 50, img: "Noodle spicy.jpg"},
+    { name: "ข้าวเปล่า", type: "ข้าว", price: 10, img: "r.jpg" },
+    { name: "น้ำเปล่า", type: "เครื่องดื่ม", price: 10, img: "warter.jpg" },
+    { name: "น้ำอัดลม", type: "เครื่องดื่ม", price: 20, img: "CocaCORA.jpg"  }
 ];
 
 let shopList = [];
@@ -153,4 +153,5 @@ function searchFood() {
 window.onload = function() {
     displayFoods();
     displayshop();
+
 }
