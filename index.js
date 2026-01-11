@@ -74,7 +74,7 @@ function displayshop(){
                     <span class="text-xs text-gray-500">${item.type} | ราคา ${item.price}.- |<span class="text-blue-700 text-lg"><b>x${item.quantity}</b></span></span>
                 </div>
             </div>
-            <div class="flex sm-16 gap-4 m-3">
+            <div class="flex flex-col sm-16 gap-4 m-3 md:flex-row">
                 <button onclick="reduce(${index})"
                     class="bg-blue-500 text-white px-3 py-1 w-full rounded-md shadow hover:bg-blue-700 transition active:scale-95">
                     <b>ลด</b>
@@ -155,3 +155,4 @@ window.onload = function() {
     displayshop();
 
 }
+
